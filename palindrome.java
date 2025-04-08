@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class first {
+public class palindrome {
     public static void main(String[] args) {
         String str = "naman";
         int i = 0, j = str.length() - 1;
@@ -9,7 +9,7 @@ public class first {
         while (i < j) {
             if (str.charAt(i) != str.charAt(j)) {
                 isPalindrome = false;
-                break; 
+                break;
             }
             i++;
             j--;
