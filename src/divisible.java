@@ -1,16 +1,21 @@
-
+import java.util.Scanner;
 public class divisible {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter you input: ");
 
+        int a = 2;
+        switch(a){
+            case 1 :
+            case 2:
+                System.out.println("lhii!");
+                break;
 
-        int a = 99;
-        if (a % 5 == 0 && a % 11 == 0) {
-            System.out.println("Divisible");
-        } else {
-            System.out.println("Not divisible");
+            case 3:
+                    System.out.println("byee!");
+                    break;
+            case 4:
         }
     }
-
-
 
 }
