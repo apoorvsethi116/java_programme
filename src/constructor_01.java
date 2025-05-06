@@ -20,7 +20,7 @@ class Student{
 
 public class constructor_01 {
     public static void main(String[] args) {
-        Student obj = new Student(10 , 20);
+        Student obj = new Student(20);    
         System.out.println(obj.a);
         obj.func();
 
